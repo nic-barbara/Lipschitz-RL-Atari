@@ -77,7 +77,7 @@ The repository is structured as follows:
     - Results plots; and
     - Plots used in the SysDO submission.
 
-- `results/`: contains a selection of trained models and results:
+- `results-paper/`: contains a selection of trained models and results:
     - `results/attack-results/`: contains adversarial attack (and uniform random noise) results.
     - `results/params`: contains trained models.
     - `results/plots`: contains figures included in Section 4.2 of the paper.
