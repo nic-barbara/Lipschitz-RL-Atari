@@ -1,0 +1,16 @@
+advertorch==0.2.4
+cycler==0.12.1
+einops==0.7.0
+envpool==0.8.4
+gym==0.26.2
+matplotlib==3.8.4
+mediapy==1.2.0
+numpy==1.26.4
+opencv_python==4.9.0.80
+pandas==2.2.2
+seaborn==0.13.2
+setuptools==59.6.0
+tensorboard==2.16.2
+torch==2.2.2
+torchvision==0.17.2
+tyro==0.8.3
