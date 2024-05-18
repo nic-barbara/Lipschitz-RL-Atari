@@ -1,6 +1,6 @@
 # Lipschitz-Bounded Policy Networks for RL: Atari Pong
 
-This repository contains the code used to produce the results in Section 4.2 of the paper: *On Robust Reinforcement Learning with Lipschitz-Bounded Policy Networks*. See [here](https://github.com/acfr/Lipschitz-RL-MJX) for the code used to produce the results in Section 4.1.
+This repository contains the code used to produce the results in Section 4.2 of the paper: *On Robust Reinforcement Learning with Lipschitz-Bounded Policy Networks*. See [here](https://github.com/nic-barbara/Lipschitz-RL-MJX) for the code used to produce the results in Section 4.1.
 
 The code in this repository has been structured so that it is extensible to training and evaluating Lipschitz-bounded policies on Atari environments other than Pong. Please feel free to install it and play around with your favourite Atari games or re-create the figures from our paper.
 
