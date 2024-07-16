@@ -4,6 +4,15 @@ This repository contains the code used to produce the results in Section 4.2 of 
 
 The code in this repository has been structured so that it is extensible to training and evaluating Lipschitz-bounded policies on Atari environments other than Pong. Please feel free to install it and play around with your favourite Atari games or re-create the figures from our paper.
 
+## A few results
+
+We compare Lipschitz-bounded policy networks with standard, unconstrained CNNs on Atari Pong. Using a Lipschitz-bounded network makes the policy significantly more robust to noise and adversarial attacks. Here's an example of a CNN losing the game with a small amount of random noise in each image.
+
+https://github.com/user-attachments/assets/f760c5d0-dcf6-46e4-811d-2af6dd6189b5
+
+Much larger amounts of noise are required to make a Lipschitz-bounded (Sandwich) policy lose the game.
+
+https://github.com/user-attachments/assets/c9d72812-d150-4f25-bc2e-0ed9dda82193
 
 ## Installation
 
