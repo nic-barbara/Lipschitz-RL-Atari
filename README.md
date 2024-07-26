@@ -6,13 +6,10 @@ The code in this repository has been structured so that it is extensible to trai
 
 ## A few results
 
-We compare Lipschitz-bounded policy networks with standard, unconstrained CNNs on Atari Pong. Using a Lipschitz-bounded network makes the policy significantly more robust to noise and adversarial attacks. Here's an example of a CNN losing the game with a small amount of random noise in each image.
+We compare Lipschitz-bounded policy networks with standard, unconstrained CNNs on Atari Pong. Using a Lipschitz-bounded network makes the policy significantly more robust to noise and adversarial attacks. Here's an example of a CNN losing the game with a small amount of random noise in each image, while a Lipschitz-bounded ([Sandwich](https://github.com/acfr/LBDN)) policy wins comfortably.
 
-https://github.com/user-attachments/assets/f760c5d0-dcf6-46e4-811d-2af6dd6189b5
+https://github.com/user-attachments/assets/9c6b4d7a-4f8d-45ea-8012-d7e0d5f0e5f0
 
-Much larger amounts of noise are required to make a Lipschitz-bounded (Sandwich) policy lose the game.
-
-https://github.com/user-attachments/assets/c9d72812-d150-4f25-bc2e-0ed9dda82193
 
 ## Installation
 
